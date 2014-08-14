@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Faded</title>
+
+  
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/flexslider.css">
+  <link rel="stylesheet" href="css/typicons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Petrona' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<div id="loader"><div id="progress-bar"></div></div>
+<a id="home-nav"></a>
+<section id="nav">
+
+	<div class="row">
+		<div class="large-4 columns text-right width375">
+			<ul class="navigation hide-for-small">
+				<li><a class="scroll" href="#buy-nav">BUY</a></li>
+				<li><a class="scroll" href="#highlights-nav">HIGHLIGHTS</a></li>
+			</ul>
+		</div>
+		
+		<div class="large-3 columns text-center">
+			<a class="home-link scroll" href="#home-nav"><div id="faded-logo"></div></a>
+		</div>
+		
+		<div class="large-4 columns text-left width375">
+			<ul class="navigation hide-for-small">
+				<li><a class="scroll" href="#info-nav">INSTRUCTIONS</a></li>
+				<li><a class="scroll" href="#work-nav">IMAGES</a></li>
+			</ul>
+		</div>
+		
+		<div class="open-menu show-for-small right"><i class="typcn typcn-th-menu"></i></div>
+	</div>
+	
+	<div class="row">
+		<div class="large-12 columns mobile-nav">
+			<ul class="navigation">
+				<li><a class="scroll" href="#buy-nav">BUY</a></li>
+				<li><a class="scroll" href="#highlights-nav">HIGHLIGHTS</a></li>
+				<li><a class="scroll" href="#info-nav">INSTRUCTIONS</a></li>
+				<li><a class="scroll" href="#work-nav">IMAGES</a></li>
+			</ul>
+		</div>
+	</div>
+
+</section>
+
+<div id="myModal" class="reveal-modal large" style="padding: 0;">
+	<div class="flex-video" style="-webkit-transform-origin: 0px 0px; opacity: 1; -webkit-transform: scale(1, 1);">
+		<iframe id="video_frame" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
+</div>
+
+<section id="home">
+	<div id="home-bg">
+		<div class="row">
+			<div class="large-7 large-centered columns text-center">
+				Faded is the premier all-in-one photo editing app for the iPhone.
+				<br />
+				<a href="#" data-reveal-id="myModal" class="play_btn"><img src="img/play_icon.png" /></a>
+			</div>
+		</div>
+	</div>
+	<!--<img class="slider-bg" alt="Slider Image" src="img/big_pic/home1.jpg" />-->
+</section>
+
+<a id="buy-nav"></a>
+<section id="buy-section">
+	<div class="row">
+		<div class="large-12 large-centered columns">
+			<a href="https://itunes.apple.com/us/app/faded/id626583252?mt=8" target="_blank"><img src="img/download.png" /></a>
+		</div>
+	</div>
+</section>
+
+<a id="highlights-nav"></a>
+<section id="highlights" class="pad-large">
+	<div class="row">
+		<div class="large-12 columns text-center">
+			<div class="page-header pad-small-bottom2">
+				<h2>Highlights</h2>
+				<div class="hr large-1 small-3"></div>
+			</div>
+		</div>
+	</div>
+	<!-- hightlights slider for medium-up -->
+	<div class="hide-for-small">
+		<div class="row">
+			<div id="highlights-text" class="large-8 large-centered columns text-center">
+				Faded includes 34 free exclusive filters and offers 36 premium filters that are available for purchase within the app. Each filter is previewed in grid format and perfectly emulates the beauty and nostalgia of classic film.
+			</div>
+		</div>
+		<div class="text-center">
+			<div id="highlights-slider">
+				<ul class="my-direction-nav">
+					<li><a class="my-prev" href="#"></a></li>
+					<li><a class="my-next" href="#"></a></li>
+				</ul>
+				<ul class="slides">
+					<li>
+						<a href="#filters-text" class="highlights-link"><img src="img/highlights/filters.png" /></a>
+						<div class="selectbar active"></div>
+						<div class="hide" id="filters-text">
+							Faded includes 34 free exclusive filters and offers 36 premium filters that are available for purchase within the app. Each filter is previewed in grid format and perfectly emulates the beauty and nostalgia of classic film.
+						</div>
+					</li>
+					<li>
+						<a href="#history-text" class="highlights-link"><img src="img/highlights/history.png" /></a>
+						<div class="selectbar"></div>
+						<div id="history-text" class="hide">
+							Faded offers you access to your complete adjustment history, allowing you to revert back to any point in the editing process and save your adjustments as custom actions.
+						</div>
+					</li>
+					<li>
+						<a href="#adjustments-text" class="highlights-link"><img src="img/highlights/adjustments.png" /></a>
+						<div class="selectbar"></div>
+						<div id="adjustments-text" class="hide">
+							Faded allows for complete customization of your photos with it’s professional adjustment tools such as brightness, contrast, fade, shadows, tint, sharpen, saturation, vignette and more!
+						</div>
+					</li>
+					<li>
+						<a href="#actions-text" class="highlights-link"><img src="img/highlights/actions.png" /></a>
+						<div class="selectbar"></div>
+						<div id="actions-text" class="hide">
+							Faded provides you the ability to save your adjustments as custom presets, called ACTIONS. An ACTION can be easily applied to any photo as your own personalized ﬁlter.
+						</div>
+					</li>
+					<li>
+						<a href="#effects-text" class="highlights-link"><img src="img/highlights/effects.png" /></a>
+						<div class="selectbar"></div>
+						<div id="effects-text" class="hide">
+							Faded comes packed with color bursting gradients, light leaks, emulsions, and unique frames to give your photos an impactful custom effect while also offering you premium effects to purchase, taking your photos to the next level.
+						</div>
+					</li>
+					<li>
+						<a href="#cameratools-text" class="highlights-link"><img src="img/highlights/cameratools.png" /></a>
+						<div class="selectbar"></div>
+						<div id="cameratools-text" class="hide">
+							Faded's camera is fully loaded with functional tools allowing you complete control of your shots. Tools such as manual exposure, hands-free snap shutter countdown, compositional grid or square format, and split exposure focus points.
+						</div>
+					</li>
+					<li>
+						<a href="#overlay-text" class="highlights-link"><img src="img/highlights/overlay.png" /></a>
+						<div class="selectbar"></div>
+						<div id="overlay-text" class="hide">
+							OVERLAY allows you to add an image, solid color, or pattern to your photo. You can then adjust the opacity, ﬁlter, and blending mode for a completely unique look!
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div><!-- highlights slider for medium-up -->
+	<div class="show-for-small-only row pad-top">
+		<div class="text-center columns">
+			<div id="highlights-slider-2">
+				<ul class="slides">
+					<li>
+						<img src="img/highlights/filters.png" />
+						<div class="pad-bottom">
+							Faded includes 30 free exclusive filters and offers 33 premium filters that are available for purchase within the app. Each filter is previewed in grid format and perfectly emulates the beauty and nostalgia of classic film.
+						</div>
+					</li>
+					<li>
+						<img src="img/highlights/history.png" />
+						<div class="pad-bottom">
+							Faded offers you access to your complete adjustment history, allowing you to revert back to any point in the editing process and save your adjustments as custom actions.
+						</div>
+					</li>
+					<li>
+						<img src="img/highlights/adjustments.png" />
+						<div class="pad-bottom">
+							Faded allows for complete customization of your photos with it’s professional adjustment tools such as brightness, contrast, fade, shadows, tint, sharpen, saturation, vignette and more!
+						</div>
+					</li>
+					<li>
+						<img src="img/highlights/actions.png" />
+						<div class="selectbar"></div>
+						<div class="pad-bottom">
+							Faded provides you the ability to save your adjustments as custom presets, called ACTIONS. An ACTION can be easily applied to any photo as your own personalized ﬁlter.
+						</div>
+					</li>
+					<li>
+						<img src="img/highlights/effects.png" />
+						<div class="selectbar"></div>
+						<div class="pad-bottom">
+							Faded comes packed with color bursting gradients, light leaks, emulsions, and unique frames to give your photos an impactful custom effect while also offering you premium effects to purchase, taking your photos to the next level.
+						</div>
+					</li>
+					<li>
+						<img src="img/highlights/cameratools.png" />
+						<div class="selectbar"></div>
+						<div class="pad-bottom">
+							Faded's camera is fully loaded with functional tools allowing you complete control of your shots. Tools such as manual exposure, hands-free snap shutter countdown, compositional grid or square format, and split exposure focus points.
+						</div>
+					</li>
+					<li>
+						<img src="img/highlights/overlay.png" />
+						<div class="selectbar"></div>
+						<div class="pad-bottom">
+							OVERLAY allows you to add an image, solid color, or pattern to your photo. You can then adjust the opacity, ﬁlter, and blending mode for a completely unique look!
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<a id="info-nav"></a>
+<section id="info">
+<!--<img id="big_image" src="img/video_player.jpg" />-->
+<div class="video-container">
+	<iframe src="//player.vimeo.com/video/80869427?title=0&amp;byline=0&amp;portrait=0&amp;color=64b0af" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+</section>
+
+<a id="work-nav">&nbsp;</a>
+<section id="work" class="pad-large">
+
+	<div class="row">
+		<div class="large-12 columns text-center">
+			<div class="page-header pad-bottom">
+				<h2>#MADEWITHFADED</h2>
+				<div class="hr large-1 small-3"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/1.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/2.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/3.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/4.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/5.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/6.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/7.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/8.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/9.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/10.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/11.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/12.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/13.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/14.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/15.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/16.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/17.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/18.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/19.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/20.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/21.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/22.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/23.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/24.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/25.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/26.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/27.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	<div class="row work-row">
+	
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/28.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/29.jpg" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="large-4 columns">
+			<div class="work-item" data-project-id="project-1">
+				<div class="work-img-holder">
+					<img alt="Work Image" src="img/project/30.jpg" />
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+</section>
+
+<section id="policy">
+
+<div class="row pad-small">
+<div class="columns large-12">
+
+	<div class="page-header pad-small-bottom-2">
+		<h2 class="text-center">Privacy Policy</h2>
+		<div class="hr large-1 small-3"></div>
+	</div>
+
+<div class="text-center pad-small2">
+<a href="#" id="policy-toggle">show/hide</a>
+</div>
+
+<div class="policy-text" style="display: none;">
+<p>Vintage Noir respects your privacy and is committed to protect any personal information you share with us. This information will be used solely by us, and not be shared, sold or in any other way given to a third party.</p>
+
+<h4>Information Collected</h4>
+
+<p>Some apps developed by Vintage Noir may collect anonymous information in order to improve performance, design, and other parts of the user experience. Any useage statistics collected by our apps will always be anonymized before they are sent back to Vintage Noir. They will never contain personally-sensitive information, and they will never be personally identifiable.</p>
+
+<p>Vintage Noir may collect app usage date, such as how long a user interacts with an app in total or in a single session, what in app purchases are the most popular, hardware preferences, error logs, crash data, and so on.</p>
+
+<p>Unless you are specifically requested for personal information, all information is completely anonymous.</p>
+
+<h4>What do you do with personal information?</h4>
+
+<p>This information will be anonymized and aggregated for analysis, and used to improve the user experience. It will never be sold to a 3rd party. It may, however, be shared in aggregated and summarized form for use only in educational materials or trade publications. No personal information will ever be used in this way.</p>
+
+<h4>Vintage Noir Website</h4>
+
+<p>When you browse our website, we collect no personally-identifying information. Anonymous usage information is collected only to gauge performance and make improvements to the website.</p>
+
+<h4>Contact Us</h4>
+
+<p>If you have questions regarding how Vintage Noir protects your information or this Privacy Policy, please contact us at:</p>
+
+<p>Attn: Privacy Policy Issues</p>
+
+<p>Email: <a href="mailto:hello@vintagenoir.com">hello@vintagenoir.com</a></p>
+</div>
+
+</div>
+</div>
+
+</section>
+
+<a id="contact-nav"></a>
+<section id="contact">
+
+	<div id="contact-holder">
+		<div class="row">
+			<div class="large-12 columns text-center">
+				<div class="page-header pad-small-bottom">
+					<h2>SIGN UP FOR EXCLUSIVE FADED UPDATES</h2>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-10 columns">
+				<div id="contact-form">
+					<div id="name">
+						<input id="form-name" type="text" placeholder="Name" />
+					</div>
+					
+					<div id="email">
+						<input id="form-email" type="email" placeholder="Email" />
+					</div>
+					<div class="btn-wrapper"><div class="btn">SIGN UP</div></div>
+					
+					<div id="details-error" class="text-white"><i class="typcn typcn-warning">&nbsp;</i>Error: Please ensure all fields are completed correctly.</div>
+					<div id="form-sent" class="text-white"><i class="typcn typcn-thumbs-up">&nbsp;</i>You are now on the list! Stay tuned for some exciting updates.</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="large-12 columns text-center">
+				<div id="footer">
+					<ul id="footer-social">
+						<li><a href="http://instagram.com/madewithfaded" target="_blank"><i class="myicon myicon-instagram"></i></a></li>
+						<li><a href="http://facebook.com/madewithfaded" target="_blank"><i class="myicon myicon-facebook"></i></a></li>
+						<li><a href="http://twitter.com/madewithfaded" target="_blank"><i class="myicon myicon-twitter"></i></a></li>
+						<li><a href="mailto:hello@vintagenoir.com"><i class="myicon myicon-email"></i></a></li>
+					</ul>
+					<div id="copy-text">&copy;&nbsp;&nbsp;<span class="logo-text">Vintage Noir, LLC</span>&nbsp;&nbsp;2013</div>
+				</div>
+			</div>
+		</div>
+		
+	</div><!-- end of contact holder -->
+	
+	
+	
+
+</section>
+
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="js/vendor/jquery.js"></script> 
+  <script src="js/foundation.min.js"></script>
+  <script src="js/foundation/foundation.reveal.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+  var video_link = 'http://player.vimeo.com/video/80870342?title=0&amp;byline=0&amp;portrait=0&amp;color=64b0af;autoplay=1';
+  </script>
+
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
